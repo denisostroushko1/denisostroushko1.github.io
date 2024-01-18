@@ -1,0 +1,78 @@
+project:
+  type: website
+  resources:
+    - CV_Graduate_Admissions_2021 (1).pdf
+    - /Users/denisostroushko/Desktop/R/GitRepos/royal_fc_2023/Knights_2023.html
+# add resume and CV here 
+
+image: ABB09310.jpg
+
+about: 
+  template: trestles
+  links:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/denis-ostroushko/
+  #  - text: RPubsm
+  #    href: 
+    - icon: github
+      href: https://github.com/denisostroushko1
+    - text: Email
+      href: mailto:denisostroushko1@gmail.com
+    - text: Academic Email
+      href: mailto:ostro233@umn.edu
+
+website:
+  page-navigation: true
+  title: "Denis Ostroushko"
+  navbar:
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+      - sidebar:resume
+      - sidebar:shinyapps
+      - sidebar:other_work
+
+  sidebar:
+  - id: resume
+    title: "Resume"
+    style: "docked"
+    background: light
+    collapse-level: 2
+    contents:
+      - text: Resume
+        href: Resume.pdf
+      - text: Academic CV
+        href: CV_Graduate_Admissions_2021 (1).pdf
+  - id: shinyapps
+    title: "Software and Dashboards"
+    style: "docked"
+    background: light
+    collapse-level: 2
+    contents: 
+      - text: Royal FC - Amateur Soccer Team Performance 
+        href: /Users/denisostroushko/Desktop/R/GitRepos/royal_fc_2023/Knights_2023.html
+      - text: FBref Powered Analysis of Soccer Players
+        href: https://kexite.shinyapps.io/soccer_dashboard/
+      - text: Market Analysis Dashboard 
+        href: https://kexite.shinyapps.io/super_secret_db/
+  - id: other_work
+    title: "Other Work"
+    style: "docked"
+    background: light
+    collapse-level: 2
+    contents: 
+      - text: Linear Regression Guide
+        href: https://github.com/denisostroushko1/articles/blob/main/02%20Normal%20Error%20Regression%20Model/Regression_main.pdf
+      - text: ICR - Kaggle ML competion Case Study 
+        href: www.google.com
+      - text: Statistical Tests Handbook
+        href: www.google.com
+format:
+  html:
+    theme: lux
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+    margin-left: 0.5%
+    margin-right: 0.5%

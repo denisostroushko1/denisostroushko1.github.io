@@ -1,7 +1,6 @@
 project:
   type: website
   resources:
-    - CV_Graduate_Admissions_2021 (1).pdf
     - /Users/denisostroushko/Desktop/R/GitRepos/royal_fc_2023/Knights_2023.html
 # add resume and CV here 
 
@@ -27,23 +26,14 @@ website:
   navbar:
     search: true
     left:
-      - text: Home
+      - text: 'Home'
         href: index.qmd
-      - sidebar:resume
+      - text: 'Resume'
+        href: Resume.pdf
       - sidebar:shinyapps
-      - sidebar:other_work
+      - sidebar:reference_materials
 
   sidebar:
-  - id: resume
-    title: "Resume"
-    style: "docked"
-    background: light
-    collapse-level: 2
-    contents:
-      - text: Resume
-        href: Resume.pdf
-      - text: Academic CV
-        href: CV_Graduate_Admissions_2021 (1).pdf
   - id: shinyapps
     title: "Software and Dashboards"
     style: "docked"
@@ -56,18 +46,16 @@ website:
         href: https://kexite.shinyapps.io/soccer_dashboard/
       - text: Market Analysis Dashboard 
         href: https://kexite.shinyapps.io/super_secret_db/
-  - id: other_work
-    title: "Other Work"
+  - id: reference_materials
+    title: "Analysis Reference Materials"
     style: "docked"
     background: light
     collapse-level: 2
     contents: 
-      - text: Linear Regression Guide
-        href: https://github.com/denisostroushko1/articles/blob/main/02%20Normal%20Error%20Regression%20Model/Regression_main.pdf
-      - text: ICR - Kaggle ML competion Case Study 
-        href: www.google.com
-      - text: Statistical Tests Handbook
-        href: www.google.com
+      - text: "Introduction of Gaussian Regression in R"
+        href: https://github.com/denisostroushko1/Homework-7405
+      - text: "Introduction of GLM Regression in R"
+        href: https://github.com/denisostroushko1/Homework-7406
 format:
   html:
     theme: lux

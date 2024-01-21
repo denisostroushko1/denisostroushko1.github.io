@@ -70,7 +70,7 @@ website:
       - text: "Analysis of Correlated Data <br> Using GEE Model"
         href: PubH7430_Group3_FinalReport..pdf
       - text: "Analysis of Variable Selection <br> Methods in Causal Inference <br> via a Simulation Study"
-        href: Final-Report.pdf
+        href: Causal-Inference-Final-Paper
 format:
   html:
     theme: lux

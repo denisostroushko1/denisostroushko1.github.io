@@ -59,6 +59,8 @@ website:
         href: https://github.com/denisostroushko1/Homework-7406
       - text: "Review of GLM models + <br> Analysis of Correlated Outcomes"
         href: https://github.com/denisostroushko1/Homework-7430
+      - text: "Regression Analysis for <br> Causal Inference"
+        href: https://github.com/denisostroushko1/Homework-7485
   - id: writing_samples
     title: "Writing Samples"
     style: "docked"

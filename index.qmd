@@ -1,4 +1,8 @@
 # About me
 
-text here
+Hello there! Website is under construction. For now, please check the top navbar for my previous work and projects! 
+
+```{r, echo = F, align = 'c'}
+knitr::include_graphics("hehehe.gif")
+```
 

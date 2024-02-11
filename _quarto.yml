@@ -26,13 +26,12 @@ website:
   navbar:
     search: true
     left:
-      - text: 'Home'
-        href: index.qmd
       - text: 'Resume'
         href: Resume.pdf
       - sidebar:shinyapps
       - sidebar:reference_materials
       - sidebar:writing_samples
+      - sidebar:fun_analysis
 
   sidebar:
   - id: shinyapps
@@ -71,11 +70,22 @@ website:
         href: PubH7430_Group3_FinalReport..pdf
       - text: "Analysis of Variable Selection <br> Methods in Causal Inference <br> via a Simulation Study"
         href: Causal-Inference-Final-Paper.pdf
+  - id: fun_analysis
+    title: "Other Fun Analyses"
+    style: "docked"
+    background: light
+    collpase-level: 2
+    contents: 
+      - text: "Party Game: Ride the Bus"
+        href: https://rpubs.com/kexite/riding_the_party_bus
 format:
   html:
     theme: lux
     toc: false
+    fontsize: 16px
     smooth-scroll: true
     page-layout: full
     margin-left: 0.5%
     margin-right: 0.5%
+    
+    

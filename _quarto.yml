@@ -27,7 +27,7 @@ website:
     search: true
     left:
       - text: 'Resume'
-        href: Resume.pdf
+        href: Denis Ostroushko Resume 2024.pdf
       - sidebar:shinyapps
       - sidebar:reference_materials
       - sidebar:writing_samples
@@ -90,5 +90,6 @@ format:
     page-layout: full
     margin-left: 0.5%
     margin-right: 0.5%
+    link-external-newwindow: true
     
     

@@ -60,6 +60,9 @@ website:
         href: https://github.com/denisostroushko1/Homework-7430
       - text: "Regression Analysis for <br> Causal Inference"
         href: https://github.com/denisostroushko1/Homework-7485
+      - text: "Bayesian Inference"
+        href: https://github.com/denisostroushko1/Homework-7440
+        
   - id: writing_samples
     title: "Writing Samples"
     style: "docked"

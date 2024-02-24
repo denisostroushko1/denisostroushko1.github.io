@@ -1,8 +1,11 @@
 # About me
 
-Hello there! Website is under construction. For now, please check the top navbar for my previous work and projects! 
+Hello there! I am data scientists/statistician by profession, and an amateur soccer player by passion. 
 
-```{r, echo = F, align = 'c'}
-knitr::include_graphics("hehehe.gif")
-```
+I completed my MS in Biostatistics at the University of Minnesota in May 2024, focusing on problems about early identification and progression times to Alzheimer Disease using Electronic Health Records and ADNI (Cohort Study) data. 
 
+I am huge soccer fan, I play in various leagues in the Minneapolis area an help run a club - Royal FC. I always find way to incorporate data analyses into my hobbies, like analyzing the way our team scores goals. 
+
+My other passions include fitness and biking, plant growing and propagation, board and card games! 
+
+                                                                                                  

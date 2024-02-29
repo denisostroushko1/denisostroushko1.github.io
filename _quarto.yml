@@ -1,7 +1,5 @@
 project:
   type: website
-  resources:
-    - /Users/denisostroushko/Desktop/R/GitRepos/royal_fc_2023/Knights_2023.html
 # add resume and CV here 
 
 image: ABB09310.jpg
@@ -43,9 +41,9 @@ website:
       - text: Royal FC - Amateur Soccer Team Performance 
         href: https://rpubs.com/kexite/royal_fc_knights_2023
       - text: FBref Powered Analysis of Soccer Players
-        href: https://kexite.shinyapps.io/soccer_dashboard/
+        href: https://kexite.shinyapps.io/fb_ref_dashboard/
       - text: Market Analysis Dashboard 
-        href: https://kexite.shinyapps.io/super_secret_db/
+        href: https://kexite.shinyapps.io/01_Deployment/
   - id: reference_materials
     title: "Analysis Reference Materials"
     style: "docked"
@@ -83,6 +81,7 @@ website:
         href: https://rpubs.com/kexite/riding_the_party_bus
 format:
   html:
+    link-external-newwindow: true
     theme: lux
     toc: false
     fontsize: 16px
@@ -90,6 +89,5 @@ format:
     page-layout: full
     margin-left: 0.5%
     margin-right: 0.5%
-    link-external-newwindow: true
     
     
